@@ -106,13 +106,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
         //ARRAYS - CONTENTS
         
         arrayOfCardBack = [back_01, back_02, back_03, back_04, back_05, back_06, back_07, back_08, back_09, back_10, back_11, back_12, back_13, back_14, back_15, back_16, back_17, back_18, back_19, back_20]
         arrayOfCardFront = [front_01, front_02, front_03, front_04, front_05, front_06, front_07, front_08, front_09, front_10, front_11, front_12, front_13, front_14, front_15, front_16, front_17, front_18, front_19, front_20]
         arrayOfCard = [card_01, card_02, card_03, card_04, card_05, card_06, card_07, card_08, card_09, card_10, card_11, card_12, card_13, card_14, card_15, card_16, card_17, card_18, card_19, card_20]
         arrayOfImagesViews = [imgView01, imgView02, imgView03, imgView04, imgView05, imgView06, imgView07, imgView08,imgView09, imgView10, imgView11, imgView12, imgView13, imgView14, imgView15, imgView16, imgView17, imgView18, imgView19, imgView20]
-        arrayOfAnimalNames = ["bee.png", "cat.png", "elephant.png", "giraffe.png", "goat.png", "hippo.png", "ladybug.png", "leopard.png", "lion.png", "tiger.png", "bee.png", "cat.png", "elephant.png", "giraffe.png", "goat.png", "hippo.png", "ladybug.png", "leopard.png", "lion.png", "tiger.png"]
+        arrayOfAnimalNames = ["bee.png", "cat.png", "elephant.png", "giraffe.png", "goat.png", "hippo.png", "ladybug.png", "leopard.png", "lion.png", "tiger.png", "bee.png", "cat.png", "elephant.png", "giraffe.png", "goat.png", "hippo.png", "ladyBug.png", "leopard.png", "lion.png", "tiger.png"]
         
         //STARTS
         
