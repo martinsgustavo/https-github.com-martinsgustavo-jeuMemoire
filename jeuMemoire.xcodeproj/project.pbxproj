@@ -26,6 +26,8 @@
 		B801AA6A1F7624CE00EF21E8 /* tiger.png in Resources */ = {isa = PBXBuildFile; fileRef = B801AA5E1F7624CE00EF21E8 /* tiger.png */; };
 		B801AA6D1F76B87000EF21E8 /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = B801AA6B1F76B87000EF21E8 /* restart.png */; };
 		B801AA721F76BAAE00EF21E8 /* sunRainbow.png in Resources */ = {isa = PBXBuildFile; fileRef = B801AA711F76BAAE00EF21E8 /* sunRainbow.png */; };
+		B8FB5DF51F7C0E2400C538E0 /* jeuMemoire.png in Resources */ = {isa = PBXBuildFile; fileRef = B8FB5DF41F7C0E2400C538E0 /* jeuMemoire.png */; };
+		B8FB5DF71F7C130B00C538E0 /* field.png in Resources */ = {isa = PBXBuildFile; fileRef = B8FB5DF61F7C130A00C538E0 /* field.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		B801AA5E1F7624CE00EF21E8 /* tiger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiger.png; path = ../../../working/tiger.png; sourceTree = "<group>"; };
 		B801AA6B1F76B87000EF21E8 /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = restart.png; path = ../../../working/restart.png; sourceTree = "<group>"; };
 		B801AA711F76BAAE00EF21E8 /* sunRainbow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunRainbow.png; path = ../../../working/sunRainbow.png; sourceTree = "<group>"; };
+		B8FB5DF41F7C0E2400C538E0 /* jeuMemoire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jeuMemoire.png; path = ../../../working/jeuMemoire.png; sourceTree = "<group>"; };
+		B8FB5DF61F7C130A00C538E0 /* field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = field.png; path = ../../../working/field.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		B801AA521F7624B700EF21E8 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				B8FB5DF61F7C130A00C538E0 /* field.png */,
+				B8FB5DF41F7C0E2400C538E0 /* jeuMemoire.png */,
 				B801AA711F76BAAE00EF21E8 /* sunRainbow.png */,
 				B801AA6B1F76B87000EF21E8 /* restart.png */,
 				B801AA531F7624CE00EF21E8 /* bee.png */,
@@ -175,6 +181,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B801AA661F7624CE00EF21E8 /* hippo.png in Resources */,
+				B8FB5DF71F7C130B00C538E0 /* field.png in Resources */,
+				B8FB5DF51F7C0E2400C538E0 /* jeuMemoire.png in Resources */,
 				B801AA691F7624CE00EF21E8 /* lion.png in Resources */,
 				B801AA631F7624CE00EF21E8 /* elephant.png in Resources */,
 				B801AA721F76BAAE00EF21E8 /* sunRainbow.png in Resources */,
