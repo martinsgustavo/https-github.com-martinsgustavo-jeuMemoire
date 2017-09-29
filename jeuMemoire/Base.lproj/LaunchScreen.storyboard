@@ -24,27 +24,27 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9HN-R2-hOv">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZFV-Vk-ljJ">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="farmBkg.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZFV-Vk-ljJ">
                                         <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="1024" id="3rZ-2o-SmS"/>
-                                            <constraint firstAttribute="height" constant="1366" id="UoO-7Y-2aE"/>
-                                        </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jeuMemoire.png" translatesAutoresizingMaskIntoConstraints="NO" id="BGe-LM-lUL">
-                                        <rect key="frame" x="165" y="601" width="695" height="164"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="695" id="TT9-CO-k5q"/>
-                                            <constraint firstAttribute="height" constant="164" id="vvK-Jj-tIS"/>
-                                        </constraints>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textJeuMemoire.png" translatesAutoresizingMaskIntoConstraints="NO" id="BGe-LM-lUL">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="BGe-LM-lUL" firstAttribute="centerX" secondItem="9HN-R2-hOv" secondAttribute="centerX" id="Dbw-Cv-d3e"/>
-                                    <constraint firstItem="BGe-LM-lUL" firstAttribute="centerY" secondItem="9HN-R2-hOv" secondAttribute="centerY" id="Gt0-BX-Jmt"/>
-                                    <constraint firstItem="ZFV-Vk-ljJ" firstAttribute="centerY" secondItem="9HN-R2-hOv" secondAttribute="centerY" id="NXj-lF-ksa"/>
-                                    <constraint firstItem="ZFV-Vk-ljJ" firstAttribute="centerX" secondItem="9HN-R2-hOv" secondAttribute="centerX" id="Rdp-yJ-hab"/>
+                                    <constraint firstItem="ZFV-Vk-ljJ" firstAttribute="leading" secondItem="9HN-R2-hOv" secondAttribute="leading" id="HIT-hf-54G"/>
+                                    <constraint firstItem="ZFV-Vk-ljJ" firstAttribute="centerX" secondItem="9HN-R2-hOv" secondAttribute="centerX" id="Iqf-sY-8o0"/>
+                                    <constraint firstItem="BGe-LM-lUL" firstAttribute="top" secondItem="9HN-R2-hOv" secondAttribute="top" id="K4W-7u-9Us"/>
+                                    <constraint firstItem="ZFV-Vk-ljJ" firstAttribute="centerY" secondItem="9HN-R2-hOv" secondAttribute="centerY" id="KfY-wh-6VK"/>
+                                    <constraint firstItem="BGe-LM-lUL" firstAttribute="leading" secondItem="9HN-R2-hOv" secondAttribute="leading" id="L7g-ob-s6p"/>
+                                    <constraint firstItem="BGe-LM-lUL" firstAttribute="centerX" secondItem="9HN-R2-hOv" secondAttribute="centerX" id="R7v-qa-7FL"/>
+                                    <constraint firstAttribute="trailing" secondItem="BGe-LM-lUL" secondAttribute="trailing" id="Rnl-nf-b7p"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZFV-Vk-ljJ" secondAttribute="trailing" id="Wax-VL-kZK"/>
+                                    <constraint firstItem="ZFV-Vk-ljJ" firstAttribute="top" secondItem="9HN-R2-hOv" secondAttribute="top" id="XNq-a1-XMz"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZFV-Vk-ljJ" secondAttribute="bottom" id="YWc-au-jXO"/>
+                                    <constraint firstAttribute="bottom" secondItem="BGe-LM-lUL" secondAttribute="bottom" id="chO-Yo-9Nw"/>
+                                    <constraint firstItem="BGe-LM-lUL" firstAttribute="centerY" secondItem="9HN-R2-hOv" secondAttribute="centerY" id="eoa-jS-AJn"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -63,7 +63,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="field.png" width="1036" height="1280"/>
-        <image name="jeuMemoire.png" width="690" height="66"/>
+        <image name="farmBkg.png" width="1024" height="1366"/>
+        <image name="textJeuMemoire.png" width="1024" height="1366"/>
     </resources>
 </document>
