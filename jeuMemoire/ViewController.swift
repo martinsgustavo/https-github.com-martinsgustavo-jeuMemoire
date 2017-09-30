@@ -194,7 +194,6 @@ class ViewController: UIViewController {
         setImagesToCard()
         
         restartView.isHidden = true
-        
     }
 }
 
