@@ -1,4 +1,5 @@
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     @IBOutlet weak var back_01: UIView!
@@ -70,11 +71,12 @@ class ViewController: UIViewController {
     var arrayOfHidingFronts = [UIView]()
     
     var arrayOfTotalCardsUsed = [UIView]()
+    
+    var playFlipCard: AVAudioPlayer?
+    var playWinGame: AVAudioPlayer?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
         
         //ARRAYS - CONTENTS
         
@@ -88,6 +90,32 @@ class ViewController: UIViewController {
         
         randomAnimalNames()
         setImagesToCard()
+        
+        //SOUND FLIPCARD
+        guard let urlFlipCard = Bundle.main.url(forResource: "flipCard", withExtension: "mp3") else { return }
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            try AVAudioSession.sharedInstance().setActive(true)
+            
+            playFlipCard = try AVAudioPlayer(contentsOf: urlFlipCard)
+            
+        } catch let error {
+            print(error.localizedDescription)
+        }
+        
+        //SOUND WINGAME
+        guard let urlWinGame = Bundle.main.url(forResource: "applause", withExtension: "mp3") else { return }
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            try AVAudioSession.sharedInstance().setActive(true)
+            
+            playWinGame = try AVAudioPlayer(contentsOf: urlWinGame)
+            
+        } catch let error {
+            print(error.localizedDescription)
+        }
         
     }
     @IBAction func showCards(_ sender: UIButton) {
@@ -103,6 +131,8 @@ class ViewController: UIViewController {
         arrayOfChosenViews.append(arrayOfCard[sender.tag])
         
         verification()
+        
+        playFlipCard?.play()
         
     }
     
@@ -165,6 +195,7 @@ class ViewController: UIViewController {
         arrayOfChosenViews = []
         if arrayOfTotalCardsUsed.count == 12 {
             restart()
+            playWinGame?.play()
         }
     }
     
